@@ -2,13 +2,17 @@
 ## functions do
 
 ## Write a short comment describing this function
+
+## Creates a list of four functions and creates two internal variables x and m
+
 ## x is the original matrix
-## m is the inverse
-## when the list is created m should be null (no inverse yet)
+## m is the inverse of x
+## when the cacheMatrix is created m should be null (no inverse yet)
 ## whenever x is set m should be null (because x is a new value so old m is invalid)
 
-## this function can only get and set x or get and set m
-## it doesn't calculate me
+## this function can only get & set x or get & set m
+## it doesn't calculate m
+
 makeCacheMatrix <- function(x = matrix()) {
   
     m <- NULL
